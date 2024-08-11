@@ -1,0 +1,18 @@
+//program to insert element at beginnig
+#include<stdio.h>
+void main()
+{
+    int a[5],i,n,b[6];
+    printf("enter array elements");
+    for(i=0;i<5;i++){
+        scanf("%d",&a[i]);
+    }
+    b[0]=20;
+    for(i=0;i<5;i++){
+        b[i+1]=a[i];
+    
+    }
+    for(i=0;i<6;i++){
+        printf("%d",b[i]);
+    }
+}
